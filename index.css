@@ -1,0 +1,169 @@
+  body {
+      font-family: 'Kumbh Sans', sans-serif;
+      font-weight: 400;
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      background-color:  hsl(185, 75%, 39%);
+
+  }
+
+  .parent_section {
+      border-radius: 20px;
+     align-items: center;
+     width: 512px;
+     margin:90px 100px 0px 500px;
+     text-align: center;
+    
+
+  }
+
+  .background-cyan  img{
+   height: 200px;
+   width: 512px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   
+   
+   
+  }
+
+  .container {
+      text-align: center;
+      background-color: #fff;
+
+      /* padding:6px; */
+      margin-top: -10px;
+      width: 512px;
+     
+      text-transform: capitalize;
+      
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      
+  }
+
+  hr {
+      color: hsl(227, 10%, 46%);
+  }
+
+.img_div img {
+   
+      border-radius: 50%;
+      border: 4px #ffff solid;
+      position: relative;
+      top:-70px;
+      width: 140px;
+  }
+
+  h1 {
+      font-weight: 700;
+      font-size: 40px;
+  }
+ 
+  .name_div{ margin-top:-80px;
+
+}
+h2 { margin:-30px 0px 40px;
+
+}
+
+  .name_div span {
+      margin-left: 20px;
+  }
+
+  .div_container {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(140px, 1fr));
+   
+      font-size: 20px;
+      padding: 40px;
+      justify-content: space-evenly;
+      text-transform: capitalize;
+      
+  }
+
+  .div_container span {
+      font-size: 30px;
+      font-weight: 700;
+     
+  }
+  @media (max-width: 1440px) { 
+
+    .parent_section {
+    
+         align-items: center;
+       
+         margin:40px 0px  0px 350px;
+         text-align: center;
+        
+    
+      }
+
+  }
+
+/* تصميم لشاشات أصغر من 768px */
+@media (max-width: 1000px) {
+    .parent_section {
+        width: 50%;
+        margin: 20px auto;
+        
+    }
+
+    .background-cyan img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container {
+        width: 100%;
+        
+    }
+
+    .div_container {
+        display: grid;
+        grid-template-columns: repeat(auto, auto);
+        justify-content:center;
+    }
+
+  
+        .div_container span {
+            font-size: 20px;
+            font-weight: 600;
+           
+        }
+        
+     
+}
+
+
+
+@media (max-width: 750px) {
+    .parent_section {
+        width: 90%;
+     }
+    
+    .background-cyan img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container {
+        width: 100%;}
+        
+
+    .div_container {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        justify-content:center;
+    }
+
+  
+        .div_container span {
+            font-size: 20px;
+            font-weight: 600;
+           
+        }
+        
+     
+}
